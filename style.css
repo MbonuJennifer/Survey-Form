@@ -3,3 +3,82 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #ffc863;
+  height: 100vh;
+  font-size: 20px;
+  position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-section {
+  background-color: #fff;
+  color: #030303;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 60vw;
+  position: absolute;
+  top: 5%;
+  left: 20%;
+  padding: 3rem 0;
+  border-radius: 2rem;
+  opacity: 0.8;
+  padding: 2rem;
+}
+.labeltype {
+  display: block;
+  width: 100%;
+  /* margin-bottom: 0.5rem; */
+}
+.input1 {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #202124;
+  font-size: 20px;
+  height: 3rem;
+  outline: none;
+}
+.form-control {
+  margin-bottom: 2rem;
+}
+.select-track {
+  font-size: 1.2rem;
+  padding: 7px 15px;
+  outline: none;
+  text-align: justify;
+  width: 25rem;
+  border-radius: 20px;
+}
+
+.label-input2 {
+  display: block;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.input2 {
+  margin-right: 10px;
+  padding: 0 25px;
+}
+textarea {
+  margin: 1rem 0;
+  border-radius: 15px;
+  outline: none;
+  padding: 1rem 2rem;
+
+}
+button{
+    padding: 10px 20px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+}
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
